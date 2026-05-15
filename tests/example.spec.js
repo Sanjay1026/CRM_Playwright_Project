@@ -7,6 +7,7 @@ test("Open Google", async ({ page }) => {
   console.log(title);
   //or
   console.log(await page.title());
+console.log("I changed");
 
   // await expect(page).toHaveTitle(/Google/);
 });
